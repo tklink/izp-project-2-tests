@@ -119,6 +119,12 @@
             ["-d", ":", "[1,1];irow;set abc;[1,2];set def;[1,3];set ghi;[2,1];arow;set 420;[2,2];set 1337;[2,3];set 69;[3,1];set fuck;[3,2];set this;[3,3];set table"],
             "abc:def:ghi\n420:1337:69\nfuck:this:table\n4:5:6\n",
             0
+        ],
+        [
+            "1:2:3\n",
+            ["-d", ":", "[1,4];irow;[4,4];arow"],
+            "::\n1:2:3\n::\n::\n::\n",
+            0
         ]
     ]
 }
