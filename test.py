@@ -22,7 +22,7 @@ class TestSPreadSheet(unittest.TestCase):
 					tf.write(itext.encode('utf-8'))
 					tf.seek(0)
 					r = subprocess.run(
-						[self.EXECUTABLE] + cmd + [tf.name],
+						[EXECUTABLE] + cmd + [tf.name],
 						encoding="utf-8",
 						capture_output=True
 					)
