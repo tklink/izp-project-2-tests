@@ -27,7 +27,7 @@ class TestSPreadSheet(unittest.TestCase):
 						capture_output=True
 					)
 					self.assertEqual(r.returncode, rcode, f"Result code must be: {rcode}")
-					self.assertEqual(tf.read(), otext)
+					self.assertEqual(tf.read().decode(), otext)
 
 	def test_io(self):
 		data = get_set()
