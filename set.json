@@ -46,50 +46,14 @@
         ],
         [
             "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", "irow;set first;irow;set second;irow; set third?"],
-            "third::\nsecond::\nfirst::\nSimple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
+            ["-d", ":", "irow;set first;irow;set second;irow;set third?"],
+            "third?::\nsecond::\nfirst::\nSimple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
             0
         ],
         [
             "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
             ["-d", ":", "icol"],
-            ":Simple:Table:Test\n:1:2:3\n:10:20:30\n:some:strings:\n::\n",
-            0
-        ],
-        [
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", ""],
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            0
-        ],
-        [
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", ""],
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            0
-        ],
-        [
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", ""],
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            0
-        ],
-        [
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", ""],
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            0
-        ],
-        [
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", ""],
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            0
-        ],
-        [
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
-            ["-d", ":", ""],
-            "Simple:Table:Test\n1:2:3\n10:20:30\nsome:strings:\n::\n",
+            ":Simple:Table:Test\n:1:2:3\n:10:20:30\n:some:strings:\n:::\n",
             0
         ]
     ],
